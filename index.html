@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Dead By Daylight</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+
+    <header>
+
+    </header>
+
+    <section>
+
+    </section>
+    <script type="text/javascript">
+
+      var cabecera = document.querySelector('header');
+      var section = document.querySelector('section');
+      var solicitud = new XMLHttpRequest();
+
+      solicitud.open('GET','dbd.json');
+      solicitud.responseType = 'json';
+      solicitud.send();
+
+
+      solicitud.onload = function(){
+
+        var DeadByDaylight = solicitud.response;
+        poblarCabecera(DeadByDaylight);
+        generarContenido(DeadByDaylight);
+      }
+
+
+      function poblarCabecera(DeadByDaylight){
+
+        var miTitulo = document.createElement('h1');
+        var miPersonaje = document.createElement('h3');
+        miTitulo.textContent = DeadByDaylight['title'];
+        miPersonaje.textContent = DeadByDaylight['personajes'];
+
+        cabecera.appendChild(miTitulo);
+        cabecera.appendChild(miPersonaje);
+      }
+
+      function generarContenido(DeadByDaylight){
+        for (var i = 0; i < DeadByDaylight['fichas'].length; i++) {
+          var ficha = document.createElement('article');
+          var miH4 = document.createElement('h4');
+          var imagen = document.createElement('img');
+          var miPara1 = document.createElement('p');
+          var miPara2 = document.createElement('p');
+          var miPara3 = document.createElement('p');
+          var miPara4 = document.createElement('p');
+          var miPara5 = document.createElement('p');
+
+          miH4.textContent = DeadByDaylight['fichas'][i].nombre;
+          imagen.src = DeadByDaylight['fichas'][i].urlImagen;
+          imagen.width = "100";
+          miPara1.textContent = DeadByDaylight['fichas'][i].nacionalidad;
+          miPara2.textContent = DeadByDaylight['fichas'][i].rol;          
+          miPara3.textContent = DeadByDaylight['fichas'][i].historia;
+          miPara4.textContent = DeadByDaylight['fichas'][i].arma;    
+          miPara5.textContent = DeadByDaylight['fichas'][i].habilidades;
+          
+
+
+          ficha.appendChild(miH4);
+          ficha.appendChild(imagen);
+          ficha.appendChild(miPara1);
+          ficha.appendChild(miPara2);
+          ficha.appendChild(miPara3);
+          ficha.appendChild(miPara4);
+          ficha.appendChild(miPara5);
+
+          section.appendChild(ficha);
+        }
+      }
+
+    </script>
+  </body>
+</html>

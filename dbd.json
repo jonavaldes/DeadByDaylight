@@ -1,0 +1,78 @@
+{
+  "title":"Dead By Daylight",
+  "personajes":"Supervivientes/Asesinos",
+  "fichas":[
+    { 
+      "urlImagen":"ace.png",
+      "nombre":"Ace Visconti",
+      "nacionalidad":"Nacionalidad: Argentino",
+      "rol":"Rol: Superviviente",
+      "historia":"Leyenda: Ace Visconti es un tipo encantador. Con su elegante atuendo italiano, su pelo con mechas canosas y su don de palabra, parece una estrella de cine retirada de los años 50.Su corazón siempre ha pertenecido a las cartas. Desde sus orígenes como niño pobre en Argentina, se ha dedicado a jugar, timar, seducir y persuadir para abrirse camino hacia una vida de lujo como gran jugador en el país de las oportunidades. Aunque el dinero se le acababa escapando entre los dedos, Ace siempre daba por sentado que podía conseguir más.Pero las cosas no siempre salen como uno piensa, y al final terminó acumulando demasiadas deudas con las personas equivocadas. Y cuando se pusieron a buscar a Ace para cobrarlas, no lo encontraron por ningún lado. Nadie sabe quien lo puso sobre aviso ni adónde ha ido a parar, pero todos los que conocen a Ace Visconti coinciden en algo: sobrevivirá... contra todo pronóstico.",
+      "arma":"Armas: Ninguna",
+      "habilidades":"Habilidades: A mano descubierta; Subir la apuesta; As en la manga"
+    },
+    {
+      "urlImagen":"dwight.png",
+      "nombre":"Dwight Fairfield",
+      "nacionalidad":"Nacionalidad: Estadounidense",
+      "rol":"Rol: Superviviente",
+      "historia":"Leyenda: Dwight era un chico tímido y escuálido en el instituto. Siempre había deseado ser popular entre sus compañeros, pero carecía del carisma necesario. Intentó entrar en el equipo de fútbol americano, pero no lo seleccionaron; el equipo de baloncesto ni se fijó en el, y sus notas estaban bastante por debajo de la media. Un fin de semana, durante una actividad para fomentar el espíritu de equipo en su trabajo anodino, el jefe de Dwight los condujo al interior de un bosque y les dio a beber su licor casero de receta familiar. Dwight solo recordaba haber tomado un trago cuando se despertó al dia siguiente y se encontró solo. Los demás lo habían dejado allí a solas en medio de la noche. Sintiéndose una vez más el hazmerreír de todos, Dwight intentó salir del bosque. Esa fue la ultima vez que se supo algo de Dwight Fairfield.",
+      "arma":"Armas: Ninguna",
+      "habilidades":"Habilidades: Vínculo; Ponte a prueba; Líder"
+    },
+    {
+      "urlImagen":"laurie.png",
+      "nombre":"Laurie Strode",
+      "nacionalidad":"Nacionalidad: Estadounidense",
+      "rol":"Rol: Superviviente",
+      "historia":"Leyenda: Nunca sabes qué es lo más importante de la vida hasta que te das cuenta de que puede terminar pronto. Laurie es una chica que solo aspira a tener una vida tranquila en las afueras, pasando el tiempo con amigos y familiares yendo de cita de vez en cuando. Es una adolescente como otra cualquiera. Si te cruzases con ella por la calle, no te llamaría la atención. Siempre hace los deberes y todos sus amigos, profesores y familiares le tienen un gran cariño.Una noche cualquiera, mientras hacía de canguro, cambiaría el curso de su corta vida para siempre. Un cuchillo silbando en el aire. Gritos en la lejanía. Ruidos que podrían infundir el pánico en la mente de cualquiera. Pero no en la de Laurie: ella está hecha de otra pasta. Ella no es de las que se dan por vencido.",
+      "arma":"Armas: Ninguna",
+      "habilidades":"Habilidades: Único Superviviente; Objeto de obsesión; Golpe decisivo"
+    },
+    {
+      "urlImagen":"nea.png",
+      "nombre":"Nea Karlsson",
+      "nacionalidad":"Nacionalidad: Sueca",
+      "rol":"Rol: Superviviente",
+      "historia":"Leyenda: Nea creció en el pequeño pueblo de Hjo, en Suecia. Tuvo una infancia feliz, pese a que sus padres se pasaban el día trabajando. Cuando la posibilidad de mudarse a Estados Unidos se hizo realidad, empezó a portarse mal. Nea se vio obligada a dejar atrás su vida y a sus amigos.Rechazaba lo que sus padres consideraban 'normal'. En su lugar, se refugió en las pistas de skate, y su firma de grafitera 'Mashtyx' podía verse por todo el pueblo.Nea se aficionó a dejar su firma en los edificios oficiales, esquivando a la pasma y cualquier otro peligro con su agilidad y reflejos felinos. Al final, sus padres se acostumbraron a que desapareciese durante varios días seguidos. Tal vez fue demasiado lejos cuando, en una noche sin luna, sus amigos la retaron a dejar su firma en el viejo asilo Crotus Prenn, y no se la volvió a ver.",
+      "arma":"Armas: Ninguna",
+      "habilidades":"Habilidades: Caída equilibrada; Evasión urbana; Con Calle"
+    },
+    {
+      "urlImagen":"trapper2.jpg",
+      "nombre":"El Trampero (Evan MacMillan)",
+      "nacionalidad":"Nacionalidad: Estadounidense",
+      "rol":"Rol: Asesino",
+      "historia":"Leyenda: Hay un gran monstruo de hombres, con una horrible sonrisa desgarrada en la máscara que acecha cada uno de mis movimientos. Al igual que un cazador, él nos rastrea, preparando trampas devastadoras entre la vegetación. La vigilancia extrema y un paso ligero es esencial para evitar el estremecimiento de una trampa para osos o las garras de lo que he llamado 'El Asesino Sonriente Miserable'. Muchas veces he logrado atraparme en una de estas trampas. No tengo más que miedo por la sensación de puntas de trampa contundentes rechinando contra mis huesos o por los pasos pesados y deliberados que siempre inevitablemente revelan una sonrisa sádica enyesada. Con las trampas y el Trampero, hasta ahora ha sido una batalla constante entre mirar hacia arriba y mirar hacia abajo.",
+      "arma":"Armas: Cuchillo de carnicero, Trampa para Osos",
+      "habilidades":"Habilidades: Presencia Perturbadora; Fuerza Brutal; Agitación"      
+    },
+    {
+      "urlImagen":"cazadora.png",
+      "nombre":"La Cazadora (Anna)",
+      "nacionalidad":"Nacionalidad: Rusa",
+      "rol":"Rol: Asesino",
+      "historia":"Leyenda: Una figura vestida con la cabeza de una liebre. Una vista muy inquietante. Este nuevo enemigo tiene algo humano dentro de ella. Algunos fragmentos de la vida ordinaria. Ella parece ser una cazadora. Conocí a muchos seres diferentes en este lugar, pero este es el primero con una habilidad natural para cazar. En cualquier otro lugar, uno podría considerarlo un talento. Pero su habilidad para rastrear, capturar y matar es algo más aquí. También hay algo más en ella, parece buscar algo.",
+      "arma":"Armas: Hacha Ancha, Destrales de Caza",
+      "habilidades":"Habilidades: Bestia de Presa; Ordenamiento Territorial; Maleficio: Canción de Caza"      
+    },
+    {
+      "urlImagen":"mm.png",
+      "nombre":"La Forma (Michael Myers)",
+      "nacionalidad":"Nacionalidad: Estadounidense",      
+      "rol":"Rol: Asesino",
+      "historia":"Leyenda: Algo, o más bien alguien, está aquí ahora. Nunca he visto esta... forma antes. Un hombre escondido detrás de una máscara. Él viene con determinación. Pero más preocupante, viene con una aparente comprensión de la caza. No me parece alguien que llegó involuntariamente a este lugar. ¿Hay más en este ser de lo que puedo entender?",
+      "arma":"Armas: Cuchillo de carnicero, Mal interior",
+      "habilidades":"Habilidades: Deja lo mejor para el final; Jugando con la Comida; Luz Moribunda"      
+    },
+    {
+      "urlImagen":"nurse.jpg",
+      "nombre":"La Enfermera (Sally Smithson)",
+      "nacionalidad":"Nacionalidad: Estadounidense",
+      "rol":"Rol: Asesino",
+      "historia":"Leyenda: Una nueva alimaña ha ingresado a la arena. La vi cuando ella, de alguna manera, se movió a través de una pared. Vestidos con vendajes que cuentan una historia nunca contada de algo horrible. Esta ... enfermera, como parece, me trae una nueva angustia durante mis solitarias noches, mientras mi mente se vuelve loca.",
+      "arma":"Armas: Sierra Para Huesos, Ultimo Aliento de Spencer(Teletransportacion)",      
+      "habilidades":"Habilidades: Estridor; Tanatofobia; Vocacion de Enfermera"      
+    }
+  ]
+}

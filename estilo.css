@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2);
+  
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	text-align: center;
+	color: lightgrey;
+	background-color: black;
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+
+h1{
+    
+  font-size: 4rem;
+  text-align: center;
+  color: lightgrey;
+}
+
+h2{
+	font-size: 2.5rem;
+	letter-spacing: -5px;
+	margin-bottom: 10px;
+}
+
+header p{
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+section article{
+	width: 100%;
+	float: center;
+}
+section p{
+	font-family: 'Bangers',cursive;
+	margin: 10px 0;
+}
+
+section ul{
+	font-family: 'Amaranth', sans-serif;
+	margin-top: 0;
+}
+
+
+
+
+
